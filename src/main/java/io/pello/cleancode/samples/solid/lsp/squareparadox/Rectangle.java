@@ -1,8 +1,8 @@
 package io.pello.cleancode.samples.solid.lsp.squareparadox;
 
 public class Rectangle {
-	private int height;
-	private int width;
+	protected int height;
+	protected int width;
 
 	
 	public int getHeight() {
