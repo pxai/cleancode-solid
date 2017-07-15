@@ -5,7 +5,7 @@ import java.util.Date;
 public class KernelMessage {
 	private Date date;
 	private String message;
-	
+
 	public KernelMessage(String message) {
 		this.message = message;
 	}
@@ -17,6 +17,5 @@ public class KernelMessage {
 	public String getMessage() {
 		return message;
 	}
-	
-	
+
 }

@@ -1,6 +1,11 @@
 package io.pello.cleancode.samples.solid.isp.kernelsample.better;
 
-public class Kernel implements KernelIO {
+public class Kernel 
+	implements  KernelInput,
+				KernelOutput,
+				KernelFilesystem,
+				KernelCore {
+	
 	public KernelMessage boot () {
 		return null;
 	}

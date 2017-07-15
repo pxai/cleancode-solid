@@ -1,9 +1,9 @@
 package io.pello.cleancode.samples.solid.isp.kernelsample.better;
 
-public class Display {
+public class Printer {
 	private KernelOutput kernel;
 	
-	public Display (KernelOutput kernel) {
+	public Printer (KernelOutput kernel) {
 		this.kernel = kernel;
 	}
 	

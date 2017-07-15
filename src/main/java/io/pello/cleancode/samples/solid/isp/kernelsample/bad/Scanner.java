@@ -1,9 +1,9 @@
 package io.pello.cleancode.samples.solid.isp.kernelsample.bad;
 
-public class Keyboard {
+public class Scanner {
 	private Kernel kernel;
 
-	public Keyboard(Kernel kernel) {
+	public Scanner(Kernel kernel) {
 		this.kernel = kernel;
 	}
 

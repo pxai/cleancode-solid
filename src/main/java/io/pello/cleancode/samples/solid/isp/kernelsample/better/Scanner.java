@@ -1,9 +1,9 @@
 package io.pello.cleancode.samples.solid.isp.kernelsample.better;
 
-public class Keyboard {
+public class Scanner {
 	private KernelInput kernel;
 	
-	public Keyboard (KernelInput kernel) {
+	public Scanner (KernelInput kernel) {
 		this.kernel = kernel;
 	}
 	

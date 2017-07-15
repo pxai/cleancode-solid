@@ -1,13 +1,13 @@
 package io.pello.cleancode.samples.solid.isp.kernelsample.bad;
 
-public class Keyboard {
+public class Printer {
 	private Kernel kernel;
 
-	public Keyboard(Kernel kernel) {
+	public Printer(Kernel kernel) {
 		this.kernel = kernel;
 	}
 
-	public KernelMessage getChar() {
-		return kernel.getChar();
+	public KernelMessage putChar(char c) {
+		return kernel.putChar(c);
 	}
 }
