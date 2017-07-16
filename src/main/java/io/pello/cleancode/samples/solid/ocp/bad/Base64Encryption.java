@@ -16,5 +16,4 @@ public class Base64Encryption {
 	public String decrypt(String textoToDecrypt) {
 		return "";//DatatypeConverter.parseBase64Binary(textoToDecrypt).toString();
 	}
-
 }
