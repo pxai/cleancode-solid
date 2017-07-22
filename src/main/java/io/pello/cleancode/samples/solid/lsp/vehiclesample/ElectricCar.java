@@ -14,7 +14,7 @@ public class ElectricCar extends Vehicle {
 
 	@Override
 	public void stop() {
-		// Range is not changed
+		// Range should decrease slowly!!
 	}
 
 }

@@ -8,6 +8,7 @@ public class Printer {
 	}
 
 	public KernelMessage putChar(char c) {
+
 		return kernel.putChar(c);
 	}
 }
